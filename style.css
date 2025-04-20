@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background: #111;
+  color: #eee;
+  padding: 20px;
+}
+h1 {
+  color: cyan;
+}
+textarea, select {
+  width: 100%;
+  background: #fff;
+  color: #000;
+  font-family: monospace;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.flex-row {
+  display: flex;
+  gap: 10px;
+}
+.flex-row select {
+  flex: 1;
+  height: 40px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background: cyan;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #111;
+  margin-bottom: 20px;
+}
+pre {
+  white-space: pre-wrap;
+  background: #222;
+  padding: 10px;
+  border: 1px solid #555;
+  color: #fff;
+  border-radius: 5px;
+}
